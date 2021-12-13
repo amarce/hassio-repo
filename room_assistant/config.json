@@ -25,8 +25,9 @@
   "host_dbus": true,
   "gpio": true,
   "privileged": [
-    "NET_ADMIN"
+    "SYS_ADMIN"
   ],
+  "full_access": true,
   "ports": {
     "6415/tcp": 6415,
     "6425/udp": 6425
